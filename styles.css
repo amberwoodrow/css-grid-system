@@ -1,0 +1,66 @@
+div {
+  overflow: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.row {
+  border: dashed 1px;
+  margin: 1%;
+}
+
+.row > p {
+  margin-left: 1%;
+}
+
+.col-4 {
+  float: left;
+  width: 36%;
+  height: 150px;
+}
+
+.col-4, .col-8 {
+    margin: 0 1% 2% 1.5%;
+}
+
+.row:nth-child(2), .col-8 {
+  text-align: center;
+}
+
+.col-1 {
+  display: inline;
+  text-align: center;
+  margin: 0;
+  float: left;
+  width: 7.0%;
+  margin-left: .45%;
+  margin-right: .25%;
+}
+
+.col-6 {
+  height: 150px;
+  width: 47%;
+  float: left;
+  text-align: center;
+  margin: 0 1% 2% 1.5%;
+  margin: 1%;
+}
+
+p {
+}
+
+.col-8 > .row {
+  padding: 1%;
+  text-align: center;
+}
+
+.col-8, .col-1, .col-4, .col-6 {
+  border: solid 2px;
+}
+
+.col-8 {
+    height: 300px;
+}
